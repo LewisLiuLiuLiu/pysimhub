@@ -8,18 +8,18 @@
 		"avatarUrl": "https://github.com/PineTreeLabs.png?size=128",
 		"lastRelease": null,
 		"releaseVersion": null,
-		"fetchedAt": "2026-02-24T07:05:54.915Z"
+		"fetchedAt": "2026-02-25T07:07:36.361Z"
 	},
 	"emerge": {
-		"stars": 143,
+		"stars": 144,
 		"forks": 18,
-		"lastUpdate": "2026-02-23T20:14:49Z",
+		"lastUpdate": "2026-02-24T09:18:28Z",
 		"description": "An electromagnetic field computation program",
 		"license": "NOASSERTION",
 		"avatarUrl": "https://github.com/FennisRobert.png?size=128",
 		"lastRelease": "2026-01-17T10:41:06Z",
 		"releaseVersion": "v2.1.0",
-		"fetchedAt": "2026-02-24T07:05:55.182Z"
+		"fetchedAt": "2026-02-25T07:07:36.725Z"
 	},
 	"heavi": {
 		"stars": 25,
@@ -30,21 +30,21 @@
 		"avatarUrl": "https://github.com/FennisRobert.png?size=128",
 		"lastRelease": "2025-12-23T16:25:27Z",
 		"releaseVersion": "v0.7.9",
-		"fetchedAt": "2026-02-24T07:05:55.465Z"
+		"fetchedAt": "2026-02-25T07:07:37.041Z"
 	},
 	"scikit-rf": {
 		"stars": 856,
-		"forks": 326,
+		"forks": 327,
 		"lastUpdate": "2026-02-17T12:01:41Z",
 		"description": "RF and Microwave Engineering Scikit ",
 		"license": "BSD-3-Clause",
 		"avatarUrl": "https://github.com/scikit-rf.png?size=128",
 		"lastRelease": "2026-02-01T11:59:47Z",
 		"releaseVersion": "v1.10.0",
-		"fetchedAt": "2026-02-24T07:05:55.761Z"
+		"fetchedAt": "2026-02-25T07:07:37.375Z"
 	},
 	"pathsim": {
-		"stars": 268,
+		"stars": 269,
 		"forks": 22,
 		"lastUpdate": "2026-02-19T15:04:26Z",
 		"description": "A Python native dynamical system simulation framework in the block diagram paradigm.",
@@ -52,7 +52,7 @@
 		"avatarUrl": "https://github.com/pathsim.png?size=128",
 		"lastRelease": "2026-02-19T15:04:26Z",
 		"releaseVersion": "v0.17.2",
-		"fetchedAt": "2026-02-24T07:05:56.054Z"
+		"fetchedAt": "2026-02-25T07:07:37.721Z"
 	},
 	"bdsim": {
 		"stars": 242,
@@ -63,7 +63,7 @@
 		"avatarUrl": "https://github.com/petercorke.png?size=128",
 		"lastRelease": "2022-07-14T11:23:39Z",
 		"releaseVersion": "0.9.0",
-		"fetchedAt": "2026-02-24T07:05:56.369Z"
+		"fetchedAt": "2026-02-25T07:07:38.071Z"
 	},
 	"pysd": {
 		"stars": 438,
@@ -74,10 +74,10 @@
 		"avatarUrl": "https://github.com/SDXorg.png?size=128",
 		"lastRelease": "2025-03-23T14:45:03Z",
 		"releaseVersion": "v3.14.3",
-		"fetchedAt": "2026-02-24T07:05:56.649Z"
+		"fetchedAt": "2026-02-25T07:07:38.381Z"
 	},
 	"thermal-engineering-systems-in-python-tespy": {
-		"stars": 367,
+		"stars": 369,
 		"forks": 124,
 		"lastUpdate": "2026-02-19T07:45:10Z",
 		"description": "Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic modeling of thermal engineering plants such as power plants, heat pumps or refrigeration machines.",
@@ -85,7 +85,7 @@
 		"avatarUrl": "https://github.com/oemof.png?size=128",
 		"lastRelease": "2026-01-24T14:22:48Z",
 		"releaseVersion": "v0.9.12",
-		"fetchedAt": "2026-02-24T07:05:56.931Z"
+		"fetchedAt": "2026-02-25T07:07:38.702Z"
 	},
 	"pymunk": {
 		"stars": 1039,
@@ -96,21 +96,21 @@
 		"avatarUrl": "https://github.com/viblo.png?size=128",
 		"lastRelease": "2025-11-02T18:47:39Z",
 		"releaseVersion": "7.2.0",
-		"fetchedAt": "2026-02-24T07:05:57.187Z"
+		"fetchedAt": "2026-02-25T07:07:39.008Z"
 	},
 	"mesa": {
-		"stars": 3435,
-		"forks": 1163,
-		"lastUpdate": "2026-02-23T08:37:58Z",
+		"stars": 3437,
+		"forks": 1165,
+		"lastUpdate": "2026-02-24T13:45:16Z",
 		"description": "Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emergent behaviors.",
 		"license": "Apache-2.0",
 		"avatarUrl": "https://github.com/mesa.png?size=128",
 		"lastRelease": "2026-02-15T17:53:53Z",
 		"releaseVersion": "v3.5.0",
-		"fetchedAt": "2026-02-24T07:05:57.480Z"
+		"fetchedAt": "2026-02-25T07:07:39.326Z"
 	},
 	"brian2": {
-		"stars": 1121,
+		"stars": 1123,
 		"forks": 269,
 		"lastUpdate": "2026-02-23T10:14:28Z",
 		"description": "Brian is a free, open source simulator for spiking neural networks. ",
@@ -118,10 +118,10 @@
 		"avatarUrl": "https://github.com/brian-team.png?size=128",
 		"lastRelease": null,
 		"releaseVersion": null,
-		"fetchedAt": "2026-02-24T07:05:57.799Z"
+		"fetchedAt": "2026-02-25T07:07:39.636Z"
 	},
 	"scikit-fem": {
-		"stars": 608,
+		"stars": 607,
 		"forks": 99,
 		"lastUpdate": "2026-01-30T08:41:16Z",
 		"description": "Simple finite element assemblers",
@@ -129,32 +129,32 @@
 		"avatarUrl": "https://github.com/kinnala.png?size=128",
 		"lastRelease": "2026-01-19T12:26:57Z",
 		"releaseVersion": "12.0.0",
-		"fetchedAt": "2026-02-24T07:05:58.047Z"
+		"fetchedAt": "2026-02-25T07:07:39.968Z"
 	},
 	"autoemulate": {
 		"stars": 110,
 		"forks": 27,
-		"lastUpdate": "2026-02-23T23:13:59Z",
+		"lastUpdate": "2026-02-24T23:10:02Z",
 		"description": "Emulate simulations easily",
 		"license": "MIT",
 		"avatarUrl": "https://github.com/alan-turing-institute.png?size=128",
 		"lastRelease": "2026-01-14T13:47:34Z",
 		"releaseVersion": "v2.0.0",
-		"fetchedAt": "2026-02-24T07:05:58.300Z"
+		"fetchedAt": "2026-02-25T07:07:40.282Z"
 	},
 	"festim": {
 		"stars": 117,
 		"forks": 35,
-		"lastUpdate": "2026-02-23T14:43:55Z",
+		"lastUpdate": "2026-02-25T01:58:10Z",
 		"description": "Coupled hydrogen/tritium transport and heat transfer modelling using FEniCS",
 		"license": "Apache-2.0",
 		"avatarUrl": "https://github.com/festim-dev.png?size=128",
 		"lastRelease": "2025-08-28T18:03:40Z",
 		"releaseVersion": "v1.4.1.post1",
-		"fetchedAt": "2026-02-24T07:05:58.618Z"
+		"fetchedAt": "2026-02-25T07:07:40.630Z"
 	},
 	"sfepy": {
-		"stars": 824,
+		"stars": 823,
 		"forks": 194,
 		"lastUpdate": "2026-02-11T09:50:18Z",
 		"description": "Main SfePy repository",
@@ -162,7 +162,7 @@
 		"avatarUrl": "https://github.com/sfepy.png?size=128",
 		"lastRelease": null,
 		"releaseVersion": null,
-		"fetchedAt": "2026-02-24T07:05:58.929Z"
+		"fetchedAt": "2026-02-25T07:07:40.980Z"
 	},
 	"lcapy": {
 		"stars": 286,
@@ -173,18 +173,18 @@
 		"avatarUrl": "https://github.com/mph-.png?size=128",
 		"lastRelease": null,
 		"releaseVersion": null,
-		"fetchedAt": "2026-02-24T07:05:59.198Z"
+		"fetchedAt": "2026-02-25T07:07:41.308Z"
 	},
 	"fenicsx": {
 		"stars": 1055,
 		"forks": 230,
-		"lastUpdate": "2026-02-23T17:20:42Z",
+		"lastUpdate": "2026-02-25T07:05:57Z",
 		"description": "Next generation FEniCS problem solving environment",
 		"license": "LGPL-3.0",
 		"avatarUrl": "https://github.com/FEniCS.png?size=128",
 		"lastRelease": "2025-12-17T15:48:29Z",
 		"releaseVersion": "v0.10.0.post5",
-		"fetchedAt": "2026-02-24T07:05:59.474Z"
+		"fetchedAt": "2026-02-25T07:07:41.644Z"
 	},
 	"mujoco-scene-editor": {
 		"stars": 2,
@@ -195,18 +195,18 @@
 		"avatarUrl": "https://github.com/markusgrotz.png?size=128",
 		"lastRelease": "2026-02-09T18:51:33Z",
 		"releaseVersion": "v0.1.2",
-		"fetchedAt": "2026-02-24T07:05:59.753Z"
+		"fetchedAt": "2026-02-25T07:07:41.944Z"
 	},
 	"pypsa": {
-		"stars": 1872,
-		"forks": 608,
-		"lastUpdate": "2026-02-24T06:33:54Z",
+		"stars": 1876,
+		"forks": 610,
+		"lastUpdate": "2026-02-24T13:08:50Z",
 		"description": "PyPSA: Python for Power System Analysis",
 		"license": "MIT",
 		"avatarUrl": "https://github.com/PyPSA.png?size=128",
 		"lastRelease": "2026-02-23T17:00:38Z",
 		"releaseVersion": "v1.1.2",
-		"fetchedAt": "2026-02-24T07:06:00.043Z"
+		"fetchedAt": "2026-02-25T07:07:42.298Z"
 	},
 	"salabim": {
 		"stars": 382,
@@ -216,7 +216,7 @@
 		"avatarUrl": "https://github.com/salabim.png?size=128",
 		"lastRelease": "2026-02-12T06:20:42Z",
 		"releaseVersion": "26.0.1",
-		"fetchedAt": "2026-02-24T07:06:00.334Z"
+		"fetchedAt": "2026-02-25T07:07:42.618Z"
 	},
 	"quatorch": {
 		"stars": 11,
@@ -227,6 +227,6 @@
 		"avatarUrl": "https://github.com/egidioln.png?size=128",
 		"lastRelease": "2026-01-30T02:28:37Z",
 		"releaseVersion": "v0.2.0",
-		"fetchedAt": "2026-02-24T07:06:00.610Z"
+		"fetchedAt": "2026-02-25T07:07:42.893Z"
 	}
 }
