@@ -1,5 +1,5 @@
-PROJECT_ID=quatorch
-PROJECT_NAME=QuaTorch
-PROJECT_TAGLINE=Quaternions in PyTorch
-PROJECT_TAGS=engineering, physics, robotics, simulation, quaternions
-PROJECT_GITHUB=https://github.com/egidioln/QuaTorch
+PROJECT_ID=openmc
+PROJECT_NAME=OpenMC
+PROJECT_TAGLINE=An open source Monte Carlo neutral particle transport code
+PROJECT_TAGS=engineering, neutronics
+PROJECT_GITHUB=https://github.com/openmc-dev/openmc
