@@ -413,7 +413,7 @@
 		"condaForge": "https://anaconda.org/channels/conda-forge/packages/openmc/overview",
 		"example": "https://github.com/openmc-dev/openmc-notebooks",
 		"id": "openmc",
-		"logo": "https://github.com/user-attachments/assets/4ceebaae-19dd-43c5-8f89-b00a0636c1ae",
+		"logo": "/logos/openmc.png",
 		"submittedBy": "pshriwise"
 	}
 ]

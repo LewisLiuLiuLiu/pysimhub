@@ -35,6 +35,7 @@ body:
         - lcapy
         - mesa
         - mujoco-scene-editor
+        - openmc
         - pathsim
         - pymunk
         - pypsa
