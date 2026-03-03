@@ -113,7 +113,6 @@ body:
         - label: mujoco
         - label: network
         - label: neuroscience
-        - label: neutronics
         - label: physics
         - label: powerplant
         - label: quaternions
