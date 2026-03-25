@@ -95,7 +95,8 @@
 </script>
 
 <svelte:head>
-	<title>PySimHub</title>
+	<title>PySimHub — Python Simulation & Numerics Library Directory</title>
+	<link rel="canonical" href="https://pysimhub.io/" />
 	<meta
 		name="description"
 		content="Discover Python libraries for simulation and numerics. Robotics, fluid dynamics, discrete-event, agent-based modeling, and more."

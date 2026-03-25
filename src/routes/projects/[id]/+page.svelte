@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-	<title>PySimHub - {project.name}</title>
+	<title>{project.name} — Python Simulation Library | PySimHub</title>
 	<meta name="description" content="{project.tagline} - {project.tags.slice(0, 3).join(', ')} Python library with {formatNumber(project.stars)} stars." />
 
 	<!-- Open Graph -->
@@ -50,6 +50,8 @@
 	<meta name="twitter:title" content="{project.name} - PySimHub" />
 	<meta name="twitter:description" content="{project.tagline}" />
 
+	<link rel="canonical" href="https://pysimhub.io/projects/{project.id}" />
+
 	<!-- Schema.org SoftwareApplication -->
 	{@html `<script type="application/ld+json">${JSON.stringify({
 		"@context": "https://schema.org",
@@ -61,11 +63,10 @@
 		"url": project.homepage || project.github,
 		"codeRepository": project.github,
 		...(project.license && { "license": project.license }),
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "5",
-			"ratingCount": project.stars,
-			"bestRating": "5"
+		"interactionStatistic": {
+			"@type": "InteractionCounter",
+			"interactionType": "https://schema.org/LikeAction",
+			"userInteractionCount": project.stars
 		}
 	})}</script>`}
 </svelte:head>

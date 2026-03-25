@@ -5,7 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>PySimHub - About</title>
+	<title>About — PySimHub</title>
+	<link rel="canonical" href="https://pysimhub.io/about" />
 	<meta name="description" content="Learn about PySimHub's mission to build an open community catalog for Python simulation tools." />
 
 	<!-- Open Graph -->
