@@ -68,7 +68,7 @@
 <article
 	onclick={openModal}
 	onkeydown={handleKeydown}
-	class="card-glow group relative flex h-full w-full flex-col rounded-lg lg:rounded-xl bg-[var(--color-bg-card)] p-3 lg:p-5 transition-all duration-300 cursor-pointer hover:-translate-y-1 hover:shadow-lg {hasRecentRelease
+	class="group relative flex h-full w-full flex-col rounded-lg lg:rounded-xl bg-[var(--color-bg-card)] p-3 lg:p-5 transition-all duration-300 cursor-pointer hover:-translate-y-1 hover:shadow-lg {hasRecentRelease
 		? 'border-2 border-[var(--color-accent)]/80 hover:border-[var(--color-accent)]'
 		: 'border border-[var(--color-border)] hover:border-[var(--color-border-hover)]'}"
 	role="button"

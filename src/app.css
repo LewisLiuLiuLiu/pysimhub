@@ -1,5 +1,18 @@
 @import 'tailwindcss';
 
+/* Theme transition — radial reveal via View Transitions API */
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation: none;
+	mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+	z-index: 1;
+}
+::view-transition-new(root) {
+	z-index: 9999;
+}
+
 @theme {
 	/* Colors - Dark mode default with accent */
 	--color-bg-primary: #0a0a0f;
@@ -71,35 +84,10 @@ body {
 	}
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-	width: 8px;
-	height: 8px;
-}
-
-::-webkit-scrollbar-track {
-	background: var(--color-bg-secondary);
-}
-
-::-webkit-scrollbar-thumb {
-	background: var(--color-border);
-	border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background: var(--color-border-hover);
-}
-
-.light ::-webkit-scrollbar-track {
-	background: var(--color-bg-secondary);
-}
-
-.light ::-webkit-scrollbar-thumb {
-	background: var(--color-border);
-}
-
-.light ::-webkit-scrollbar-thumb:hover {
-	background: var(--color-border-hover);
+/* Scrollbar — thin, uses theme colors */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-border) transparent;
 }
 
 /* Glassmorphism utilities */
@@ -131,30 +119,6 @@ body {
 	}
 }
 
-/* Card glow effect */
-.card-glow {
-	position: relative;
-}
-
-.card-glow::before {
-	content: '';
-	position: absolute;
-	inset: -1px;
-	border-radius: inherit;
-	background: linear-gradient(
-		135deg,
-		var(--color-accent) 0%,
-		transparent 50%,
-		var(--color-accent-muted) 100%
-	);
-	opacity: 0;
-	z-index: -1;
-	transition: opacity var(--duration-normal) var(--ease-out-expo);
-}
-
-.card-glow:hover::before {
-	opacity: 0.5;
-}
 
 /* Focus styles */
 :focus-visible {
