@@ -70,14 +70,14 @@
 
 	<!-- Modal -->
 	<div
-		class="relative z-10 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-card)] shadow-2xl"
+		class="relative z-10 w-full max-w-2xl max-h-[90vh] flex flex-col rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-card)] shadow-2xl overflow-hidden"
 		transition:scale={{ duration: 200, start: 0.95 }}
 		role="dialog"
 		aria-modal="true"
 		aria-labelledby="modal-title"
 	>
 		<!-- Header -->
-		<div class="sticky top-0 z-10 flex items-start gap-4 border-b border-[var(--color-border)] bg-[var(--color-bg-card)] p-6">
+		<div class="flex-shrink-0 flex items-start gap-4 border-b border-[var(--color-border)] bg-[var(--color-bg-card)] p-6">
 			<Avatar src={project.avatarUrl} alt="{project.name} logo" fallback={project.name.slice(0, 2)} size="lg" />
 
 			<div class="min-w-0 flex-1">
@@ -139,7 +139,7 @@
 		</div>
 
 		<!-- Content -->
-		<div class="p-6 space-y-6">
+		<div class="overflow-y-auto p-6 space-y-6">
 			<!-- Tagline -->
 			<p class="text-[var(--color-text-secondary)]">
 				{project.tagline}
