@@ -29,7 +29,7 @@
 	</div>
 	<input
 		type="text"
-		placeholder="Search projects by name or tags..."
+		placeholder="Search by name, topic, or describe what you're looking for..."
 		value={inputValue}
 		oninput={handleInput}
 		class="w-full rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-card)] py-3 pl-12 pr-10 text-[var(--color-text-primary)] placeholder-[var(--color-text-muted)] transition-colors focus:border-[var(--color-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]/20"

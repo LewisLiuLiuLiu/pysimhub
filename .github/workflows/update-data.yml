@@ -39,10 +39,16 @@ jobs:
       - name: Sync issue templates
         run: node scripts/sync-issue-templates.js
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate embeddings
+        run: node scripts/generate-embeddings.js
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add static/data/github-cache.json static/data/projects.json static/logos/ .github/ISSUE_TEMPLATE/
+          git add static/data/github-cache.json static/data/projects.json static/data/embeddings.json static/logos/ .github/ISSUE_TEMPLATE/
           git diff --staged --quiet || git commit -m "chore: update GitHub data cache"
           git push

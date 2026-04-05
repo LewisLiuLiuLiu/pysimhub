@@ -1,7 +1,9 @@
-import { writable, derived } from 'svelte/store';
+import { writable, derived, get } from 'svelte/store';
 import type { Project, SortOption, SortDirection } from '$lib/types/project';
 import { shuffle } from '$lib/utils/shuffle';
 import { searchProjects, initSearch } from '$lib/utils/search';
+import { loadEmbeddings, preloadModel } from '$lib/utils/semantic-search';
+import { browser } from '$app/environment';
 
 // Raw projects data
 export const allProjects = writable<Project[]>([]);
@@ -16,13 +18,45 @@ export const selectedTags = writable<string[]>([]);
 export const sortOption = writable<SortOption>('random');
 export const sortDirection = writable<SortDirection>('desc');
 
+// Async search results (updated when query changes)
+const searchResults = writable<Project[] | null>(null);
+let searchGeneration = 0;
+
 // Initialize search when projects are loaded (only if changed)
 let lastProjectsRef: Project[] = [];
 allProjects.subscribe((projects) => {
 	if (projects.length > 0 && projects !== lastProjectsRef) {
 		lastProjectsRef = projects;
 		initSearch(projects);
+
+		// Preload embeddings and model in background
+		if (browser) {
+			loadEmbeddings().then(() => {
+				if ('requestIdleCallback' in window) {
+					requestIdleCallback(() => preloadModel());
+				} else {
+					setTimeout(() => preloadModel(), 2000);
+				}
+			});
+		}
 	}
+});
+
+// Trigger async search when query or projects change
+searchQuery.subscribe((query) => {
+	const projects = get(allProjects);
+	if (!query.trim()) {
+		searchResults.set(null);
+		return;
+	}
+
+	const gen = ++searchGeneration;
+	searchProjects(query, projects).then((results) => {
+		// Only apply if this is still the latest search
+		if (gen === searchGeneration) {
+			searchResults.set(results);
+		}
+	});
 });
 
 // All unique tags from projects (sorted by frequency)
@@ -46,14 +80,10 @@ export const allTags = derived(allProjects, ($allProjects) => {
 
 // Filtered and sorted projects
 export const filteredProjects = derived(
-	[allProjects, searchQuery, selectedTags, sortOption, sortDirection],
-	([$allProjects, $searchQuery, $selectedTags, $sortOption, $sortDirection]) => {
-		let result = $allProjects;
-
-		// Apply search
-		if ($searchQuery.trim()) {
-			result = searchProjects($searchQuery, result);
-		}
+	[allProjects, searchQuery, searchResults, selectedTags, sortOption, sortDirection],
+	([$allProjects, $searchQuery, $searchResults, $selectedTags, $sortOption, $sortDirection]) => {
+		// Use async search results if available, otherwise fall back to full list
+		let result = $searchQuery.trim() && $searchResults ? $searchResults : $allProjects;
 
 		// Apply tag filter (AND logic - project must have all selected tags)
 		if ($selectedTags.length > 0) {

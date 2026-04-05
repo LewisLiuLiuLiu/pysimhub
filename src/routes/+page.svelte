@@ -159,7 +159,7 @@
 		<!-- Search and Filters -->
 		<div class="mb-8 space-y-4">
 			<div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-				<div class="flex-1 sm:max-w-md">
+				<div class="flex-1">
 					<SearchBar />
 				</div>
 				<SortDropdown />
