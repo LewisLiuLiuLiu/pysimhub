@@ -23,7 +23,7 @@ jobs:
           echo "project_id=$PROJECT_ID" >> $GITHUB_OUTPUT
 
       - name: Comment with badge info
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const projectId = '${{ steps.extract.outputs.project_id }}';
