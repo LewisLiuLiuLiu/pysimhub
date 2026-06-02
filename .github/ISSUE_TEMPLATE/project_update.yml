@@ -31,6 +31,7 @@ body:
         - fenicsx
         - festim
         - heavi
+        - jupedsim
         - lcapy
         - mesa
         - mujoco-scene-editor
@@ -98,6 +99,8 @@ body:
         - label: circuit
         - label: computational neuroscience
         - label: control
+        - label: crowd management
+        - label: crowd simulation
         - label: cycle simulation
         - label: des
         - label: digital-twin
@@ -105,6 +108,7 @@ body:
         - label: electromagnetic
         - label: emulation
         - label: engineering
+        - label: evacuation
         - label: finite-element
         - label: heating
         - label: homogenization
@@ -113,6 +117,7 @@ body:
         - label: mujoco
         - label: network
         - label: neuroscience
+        - label: pedestrian dynamics
         - label: physics
         - label: powerplant
         - label: quaternions

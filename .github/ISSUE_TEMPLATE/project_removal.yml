@@ -32,6 +32,7 @@ body:
         - fenicsx
         - festim
         - heavi
+        - jupedsim
         - lcapy
         - mesa
         - mujoco-scene-editor
