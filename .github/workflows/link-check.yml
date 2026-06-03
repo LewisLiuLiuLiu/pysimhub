@@ -7,7 +7,7 @@ on:
   # Run on PRs that modify project data or content
   pull_request:
     paths:
-      - 'static/data/projects.json'
+      - 'static/data/projects/**'
       - 'src/routes/**/*.svelte'
       - 'src/routes/**/*.md'
   # Allow manual trigger
@@ -45,19 +45,23 @@ jobs:
             --accept 100..=399
             --timeout 30
             --max-retries 2
+            --root-dir ${{ github.workspace }}/build
             --exclude "^https://github\.com/pysimhub/pysimhub\.github\.io/issues/new"
             --exclude "^https://anaconda\.org"
             --exclude "^https://pypi\.org"
-            --format json
-            --output lychee-output.json
             './build/**/*.html'
             './static/data/projects.json'
+          format: json
+          output: lychee-output.json
           fail: false
           jobSummary: true
 
+      # Always run: extracts only genuinely broken external links (lychee's
+      # error_map also includes unresolved local paths, which we ignore) and
+      # reports has_broken so later steps fire only on real breakage.
       - name: Map broken links to submitters
         id: map-links
-        if: steps.lychee.outputs.exit_code != 0
+        if: always()
         env:
           LYCHEE_OUTPUT: lychee-output.json
           WORKFLOW_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
@@ -65,7 +69,7 @@ jobs:
         run: node scripts/map-broken-links.js
 
       - name: Create issue with submitter mentions
-        if: steps.lychee.outputs.exit_code != 0
+        if: steps.map-links.outputs.has_broken == 'true'
         uses: actions/github-script@v9
         with:
           script: |
@@ -108,5 +112,5 @@ jobs:
             }
 
       - name: Fail workflow if links are broken
-        if: steps.lychee.outputs.exit_code != 0
+        if: steps.map-links.outputs.has_broken == 'true'
         run: exit 1
