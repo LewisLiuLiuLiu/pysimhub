@@ -1,5 +1,0 @@
-PROJECT_ID=cosapp
-PROJECT_NAME=CoSApp
-PROJECT_TAGLINE=CoSApp: a Python library to create, simulate and design complex systems
-PROJECT_TAGS=digital-twin, engineering, simulation, system-modeling, transient
-PROJECT_GITHUB=https://gitlab.com/cosapp/cosapp
