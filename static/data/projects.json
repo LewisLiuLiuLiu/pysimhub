@@ -475,7 +475,7 @@
 		"pypi": "https://pypi.org/project/pyHarm-os/",
 		"example": "https://gitlab.com/drti/pyharm/-/tree/main/Tutorials?ref_type=heads",
 		"id": "pyharm",
-		"logo": "https://github.com/user-attachments/assets/5cc79148-46d8-4ed5-8ef1-cf436cdc22bc",
+		"logo": "/logos/pyharm.png",
 		"submittedBy": "mercierq"
 	}
 ]

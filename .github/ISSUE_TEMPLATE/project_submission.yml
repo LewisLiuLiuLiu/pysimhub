@@ -80,6 +80,7 @@ body:
         - label: mujoco
         - label: network
         - label: neuroscience
+        - label: nonlinear
         - label: pedestrian dynamics
         - label: physics
         - label: powerplant
@@ -98,6 +99,7 @@ body:
         - label: translation
         - label: uncertainty quantification
         - label: vensim
+        - label: vibration
         - label: visualization
         - label: xmile
 

@@ -39,6 +39,7 @@ body:
         - mujoco-scene-editor
         - openmc
         - pathsim
+        - pyharm
         - pymunk
         - pypsa
         - pysd
