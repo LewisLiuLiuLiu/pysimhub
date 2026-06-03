@@ -28,6 +28,7 @@ body:
         - autoemulate
         - bdsim
         - brian2
+        - cosapp
         - emerge
         - fenicsx
         - festim

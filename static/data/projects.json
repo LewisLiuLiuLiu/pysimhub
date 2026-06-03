@@ -454,7 +454,7 @@
 		"condaForge": "https://anaconda.org/conda-forge/cosapp",
 		"example": "https://cosapp.readthedocs.io/en/latest/tutorials/00-Introduction.html#Tutorials",
 		"id": "cosapp",
-		"logo": "https://github.com/user-attachments/assets/b65ff5dc-fe67-4a89-802d-c8f360d9f4c2",
+		"logo": "/logos/cosapp.png",
 		"submittedBy": "huche6"
 	}
 ]
