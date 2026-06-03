@@ -1,5 +1,5 @@
-PROJECT_ID=jupedsim
-PROJECT_NAME=JuPedSim
-PROJECT_TAGLINE=JuPedSim is a Python package with a C++ core to simulate pedestrian dynamics
-PROJECT_TAGS=physics, simulation, pedestrian dynamics, crowd simulation, evacuation, crowd management
-PROJECT_GITHUB=https://github.com/PedestrianDynamics/jupedsim
+PROJECT_ID=cosapp
+PROJECT_NAME=CoSApp
+PROJECT_TAGLINE=CoSApp: a Python library to create, simulate and design complex systems
+PROJECT_TAGS=digital-twin, engineering, simulation, system-modeling, transient
+PROJECT_GITHUB=https://gitlab.com/cosapp/cosapp
