@@ -96,51 +96,51 @@ body:
       label: Select new tags
       description: Only check if you want to replace the current tags. Leave all unchecked to keep current tags.
       options:
-        - label: block-diagram
-        - label: calibration
-        - label: circuit
-        - label: computational neuroscience
-        - label: control
-        - label: crowd management
-        - label: crowd simulation
-        - label: cycle simulation
-        - label: des
-        - label: digital-twin
-        - label: dynamic-systems
-        - label: electromagnetic
-        - label: emulation
-        - label: engineering
-        - label: evacuation
-        - label: finite-element
-        - label: heating
-        - label: homogenization
-        - label: hydrogen
-        - label: microwave
-        - label: mujoco
-        - label: network
-        - label: neuroscience
-        - label: nonlinear
-        - label: pedestrian dynamics
-        - label: physics
-        - label: powerplant
-        - label: quaternions
-        - label: radio-frequency
-        - label: refrigeration
-        - label: rf
-        - label: robotics
-        - label: sensitivity analysis
-        - label: simulation
-        - label: snn
-        - label: spiking neural network
-        - label: system-modeling
-        - label: thermodynamics
-        - label: transient
-        - label: translation
-        - label: uncertainty quantification
-        - label: vensim
-        - label: vibration
-        - label: visualization
-        - label: xmile
+        - label: "block-diagram"
+        - label: "calibration"
+        - label: "circuit"
+        - label: "computational neuroscience"
+        - label: "control"
+        - label: "crowd management"
+        - label: "crowd simulation"
+        - label: "cycle simulation"
+        - label: "des"
+        - label: "digital-twin"
+        - label: "dynamic-systems"
+        - label: "electromagnetic"
+        - label: "emulation"
+        - label: "engineering"
+        - label: "evacuation"
+        - label: "finite-element"
+        - label: "heating"
+        - label: "homogenization"
+        - label: "hydrogen"
+        - label: "microwave"
+        - label: "mujoco"
+        - label: "network"
+        - label: "neuroscience"
+        - label: "nonlinear"
+        - label: "pedestrian dynamics"
+        - label: "physics"
+        - label: "powerplant"
+        - label: "quaternions"
+        - label: "radio-frequency"
+        - label: "refrigeration"
+        - label: "rf"
+        - label: "robotics"
+        - label: "sensitivity analysis"
+        - label: "simulation"
+        - label: "snn"
+        - label: "spiking neural network"
+        - label: "system-modeling"
+        - label: "thermodynamics"
+        - label: "transient"
+        - label: "translation"
+        - label: "uncertainty quantification"
+        - label: "vensim"
+        - label: "vibration"
+        - label: "visualization"
+        - label: "xmile"
 
   - type: input
     id: custom_tags
