@@ -16,6 +16,6 @@
 	"homepage": "https://eurac-eebgroup.github.io/tools.eeb.eurac.edu/Libraries/pybuildingenergy/",
 	"example": "https://github.com/EURAC-EEBgroup/pyBuildingEnergy/tree/master/examples",
 	"id": "pybuildingenergy",
-	"logo": "https://github.com/EURAC-EEBgroup/pyBuildingEnergy/blob/master/src/pybuildingenergy/assets/Logo_pyBuild.png",
+	"logo": "/logos/pybuildingenergy.png",
 	"submittedBy": "DanieleAntonucci20"
 }
