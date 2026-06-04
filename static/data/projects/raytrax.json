@@ -15,6 +15,6 @@
 	"pypi": "https://pypi.org/project/raytrax/",
 	"example": "https://proximafusion.github.io/raytrax/getting-started/",
 	"id": "raytrax",
-	"logo": "https://proximafusion.github.io/raytrax/assets/proxima.svg",
+	"logo": "/logos/raytrax.svg",
 	"submittedBy": "DavidMStraub"
 }

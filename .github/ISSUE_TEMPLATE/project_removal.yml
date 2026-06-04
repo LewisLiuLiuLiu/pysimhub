@@ -45,6 +45,7 @@ body:
         - pypsa
         - pysd
         - quatorch
+        - raytrax
         - salabim
         - scikit-fem
         - scikit-rf

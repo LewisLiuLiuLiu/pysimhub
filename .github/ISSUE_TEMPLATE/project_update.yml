@@ -44,6 +44,7 @@ body:
         - pypsa
         - pysd
         - quatorch
+        - raytrax
         - salabim
         - scikit-fem
         - scikit-rf
@@ -113,6 +114,7 @@ body:
         - label: "engineering"
         - label: "evacuation"
         - label: "finite-element"
+        - label: "fusion"
         - label: "heating"
         - label: "homogenization"
         - label: "hydrogen"
