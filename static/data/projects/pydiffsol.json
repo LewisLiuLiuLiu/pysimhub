@@ -16,6 +16,6 @@
 	"pypi": "https://pypi.org/project/pydiffsol/",
 	"example": "https://pydiffsol.readthedocs.io/en/latest/examples.html",
 	"id": "pydiffsol",
-	"logo": "https://raw.githubusercontent.com/martinjrobins/diffsol/refs/heads/main/assets/diffsol_rectangle.svg",
+	"logo": "/logos/pydiffsol.svg",
 	"submittedBy": "alexallmont"
 }

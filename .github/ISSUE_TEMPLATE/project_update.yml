@@ -39,6 +39,7 @@ body:
         - openmc
         - pathsim
         - pybuildingenergy
+        - pydiffsol
         - pyharm
         - pymunk
         - pypsa
