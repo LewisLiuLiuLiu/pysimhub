@@ -19,6 +19,6 @@
 	"homepage": "https://ase-lib.org",
 	"example": "https://ase-lib.org/examples_generated/index.html",
 	"id": "ase",
-	"logo": "https://ase-lib.org/_static/ase256.png",
+	"logo": "/logos/ase.png",
 	"submittedBy": "ajjackson"
 }

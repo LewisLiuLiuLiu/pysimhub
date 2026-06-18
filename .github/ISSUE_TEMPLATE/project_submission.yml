@@ -57,6 +57,7 @@ body:
       label: Select all tags that apply
       description: Pick at least one. You can suggest new tags in the additional tags field below.
       options:
+        - label: "atoms"
         - label: "block-diagram"
         - label: "calibration"
         - label: "circuit"
@@ -65,6 +66,7 @@ body:
         - label: "crowd management"
         - label: "crowd simulation"
         - label: "cycle simulation"
+        - label: "density-functional theory"
         - label: "des"
         - label: "digital-twin"
         - label: "dynamic-systems"
@@ -77,7 +79,9 @@ body:
         - label: "heating"
         - label: "homogenization"
         - label: "hydrogen"
+        - label: "materials"
         - label: "microwave"
+        - label: "mlip"
         - label: "mujoco"
         - label: "network"
         - label: "neuroscience"
