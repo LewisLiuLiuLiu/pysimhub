@@ -33,6 +33,7 @@ body:
         - emerge
         - fenicsx
         - festim
+        - gemseo
         - heavi
         - jupedsim
         - lcapy
